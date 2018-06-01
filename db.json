@@ -1,0 +1,54 @@
+{  
+   "userList": [{  
+         "p_id":"user1",
+         "p_pass":"user1",
+		 "p_email":"user1@example.com",
+		 "p_photos":["image2.jpg", "image1.jpg","image3.jpg"],
+		 "notifications":["welcome"],
+		 "p_image": "user1",
+		 "messages":[],
+		 "timelineList":[],
+		 "friendList": [ "user2@example.com","andy@example.com", "john@example.com" ],
+		 "blockList":[],
+		 "count":3
+      },
+	  {  
+         "p_id":"user2",
+         "p_pass":"user2",
+		 "p_email":"user2@example.com",
+		 "p_photos":["image2.jpg", "image1.jpg","image3.jpg"],
+		 "notifications":["welcome"],
+		 "p_image": "user1",
+		 "messages":[],
+		 "timelineList":[],
+		 "friendList": [ "user1@example.com","andy@example.com"],
+		 "blockList":[],
+		 "count":2
+      },
+	  {  
+         "p_id":"andy",
+         "p_pass":"andy",
+		 "p_email":"andy@example.com",
+		 "p_photos":["image2.jpg", "image1.jpg","image3.jpg"],
+		 "notifications":["welcome"],
+		 "p_image": "user1",
+		 "messages":[],
+		 "timelineList":[],
+		 "friendList": [ "user1@example.com","user2@example.com"],
+		 "blockList":[],
+		 "count":2
+      },
+	  {  
+         "p_id":"john",
+         "p_pass":"john",
+		 "p_email":"john@example.com",
+		 "p_photos":["image2.jpg", "image1.jpg","image3.jpg"],
+		 "notifications":["welcome"],
+		 "p_image": "user1",
+		 "messages":[],
+		 "timelineList":[],
+		 "friendList": ["user1@example.com"],
+		 "blockList":[],
+		 "count":1
+      }]
+}
